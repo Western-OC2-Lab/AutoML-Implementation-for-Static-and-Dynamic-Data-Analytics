@@ -41,8 +41,9 @@ IoT Data Analytics in Dynamic Environments: From An Automated Machine Learning P
 **Summary table for Sections 11*: Table 12:  The challenges and research directions of applying AutoML to IoT data analytics  
 
 ## Implementation
-Sample code for AutoML implementation will be provided in this repository soon in Sep 2022.  
-An initial version of AutoML implementation for static data analytics can be found in [AutoML_Batch_Learning_CIC.ipynb](https://github.com/Western-OC2-Lab/AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics/blob/main/AutoML_Batch_Learning_CIC.ipynb)
+An initial version of AutoML implementation for static data analytics can be found in [AutoML_Batch_Learning_CIC.ipynb](https://github.com/Western-OC2-Lab/AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics/blob/main/AutoML_Batch_Learning_CIC.ipynb)  
+The complete code for AutoML implementation will be provided in this repository soon in Sep 2022.  
+
 
 ## Contact-Info
 Please feel free to contact me for any questions or cooperation opportunities. I'd be happy to help.
