@@ -7,6 +7,8 @@ L. Yang and A. Shami, “[IoT Data Analytics in Dynamic Environments: From An Au
 
 This paper and code will help industrial users, data analysts, and researchers to better develop machine learning models using automation technology.
 
+- A comprehensive **hyperparameter optimization** (automatically tuning the hyperparameters of machine learning algorithms) tutorial code can be found in: [Hyperparameter-Optimization-of-Machine-Learning-Algorithms](https://github.com/LiYangHart/Hyperparameter-Optimization-of-Machine-Learning-Algorithms)
+
 ## Paper Link
 IoT Data Analytics in Dynamic Environments: From An Automated Machine Learning Perspective  
 [One-column version: arXiv](https://arxiv.org/pdf/2209.08018.pdf)  
