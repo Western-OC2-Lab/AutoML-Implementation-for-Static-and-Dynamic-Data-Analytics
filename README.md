@@ -38,7 +38,7 @@ IoT Data Analytics in Dynamic Environments: From An Automated Machine Learning P
 **Summary table for Sections 4**: Table 3:  The comparison of common optimization methods for CASH and HPO problems    
 **Summary table for Sections 7**: Table 5:  The comparison of concept drift methods for automated model updating    
 **Summary table for Sections 10**: Table 6:  The specifications of the proposed AutoML pipeline  
-**Summary table for Sections 11*: Table 12:  The challenges and research directions of applying AutoML to IoT data analytics  
+**Summary table for Sections 11**: Table 12:  The challenges and research directions of applying AutoML to IoT data analytics  
 
 ## Implementation
 The AutoML implementation for static data analytics can be found in [AutoML_Batch_Learning_Dataset_1.ipynb](https://github.com/Western-OC2-Lab/AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics/blob/main/AutoML_Batch_Learning_Dataset_1.ipynb) and [AutoML_Batch_Learning_Dataset2.ipynb](https://github.com/Western-OC2-Lab/AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics/blob/main/AutoML_Batch_Learning_Dataset_2.ipynb)
