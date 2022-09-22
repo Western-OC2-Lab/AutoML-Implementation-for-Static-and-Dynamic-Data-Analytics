@@ -41,9 +41,33 @@ IoT Data Analytics in Dynamic Environments: From An Automated Machine Learning P
 **Summary table for Sections 11*: Table 12:  The challenges and research directions of applying AutoML to IoT data analytics  
 
 ## Implementation
-An initial version of AutoML implementation for static data analytics can be found in [AutoML_Batch_Learning_CIC.ipynb](https://github.com/Western-OC2-Lab/AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics/blob/main/AutoML_Batch_Learning_CIC.ipynb)  
-The complete code for AutoML implementation will be provided in this repository soon in Sep 2022.  
+The AutoML implementation for static data analytics can be found in [AutoML_Batch_Learning_Dataset_1.ipynb](https://github.com/Western-OC2-Lab/AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics/blob/main/AutoML_Batch_Learning_Dataset_1.ipynb) and [AutoML_Batch_Learning_Dataset2.ipynb](https://github.com/Western-OC2-Lab/AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics/blob/main/AutoML_Batch_Learning_Dataset_2.ipynb)
 
+### Machine Learning & Deep Learning Algorithms  
+* Random forest (RF)
+* LightGBM  
+* K-nearest neighbor (KNN)  
+* Naive Bayes (NB)  
+* Artificial Neural Networks (ANN)
+
+### Optimization/AutoML Algorithms  
+* Grid search
+* Bayesian Optimization with Tree-structured Parzen Estimator (BO-TPE)
+
+### Datasets 
+1. CICIDS2017 dataset, a popular network traffic dataset for intrusion detection problems
+   * Publicly available at: https://www.unb.ca/cic/datasets/ids-2017.html  
+   
+2. IoTID20 dataset, a novel IoT botnet dataset
+   * Publicly available at: https://sites.google.com/view/iot-network-intrusion-dataset/home
+
+### Requirements  
+* Python 3.6+ 
+* [Keras](https://keras.io/) 
+* [scikit-learn](https://scikit-learn.org/stable/)  
+* [hyperopt](https://github.com/hyperopt/hyperopt)  
+* [LightGBM](https://lightgbm.readthedocs.io/en/latest/)  
+* [River](https://riverml.xyz/dev/) 0.1.0  
 
 ## Contact-Info
 Please feel free to contact me for any questions or cooperation opportunities. I'd be happy to help.
