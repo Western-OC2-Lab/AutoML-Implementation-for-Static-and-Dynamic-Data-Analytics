@@ -1,6 +1,6 @@
 # AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics
 
-This code provides an Automated Machine Learning (AutoML) implementation for static and dynamic data analytics problems. It provides a case study of IoT anomaly detection using more than 10 ML algorithms and optimization/AutoML methods (for automating and optimizing ML algorithms). 
+This code provides an Automated Machine Learning (AutoML) implementation for static and dynamic data analytics problems. It provides a case study of IoT anomaly detection using many ML algorithms and optimization/AutoML methods (for automating and optimizing ML algorithms). It can also be used as a tutorial to help machine learning researchers to automatically obtain optimized machine learning models with the optimal learning performance on any specific task.
 
 This code is also the implementation of a review paper published in **Engineering Applications of Artificial Intelligence** (IF: 7.8):  
 L. Yang and A. Shami, “[IoT Data Analytics in Dynamic Environments: From An Automated Machine Learning Perspective](https://arxiv.org/pdf/2209.08018.pdf),” *Engineering Applications of Artificial Intelligence*, vol. 116, pp. 1-33, 2022, doi: https://doi.org/10.1016/j.engappai.2022.105366.  
@@ -43,14 +43,23 @@ IoT Data Analytics in Dynamic Environments: From An Automated Machine Learning P
 **Summary table for Sections 11**: Table 12:  The challenges and research directions of applying AutoML to IoT data analytics  
 
 ## Implementation
-The AutoML implementation for static data analytics can be found in [AutoML_Batch_Learning_Dataset_1.ipynb](https://github.com/Western-OC2-Lab/AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics/blob/main/AutoML_Batch_Learning_Dataset_1.ipynb) and [AutoML_Batch_Learning_Dataset2.ipynb](https://github.com/Western-OC2-Lab/AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics/blob/main/AutoML_Batch_Learning_Dataset_2.ipynb)
+* The AutoML implementation for **static/batch data analytics** can be found in [AutoML_Batch_Learning_Dataset_1.ipynb](https://github.com/Western-OC2-Lab/AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics/blob/main/AutoML_Batch_Learning_Dataset_1.ipynb) and [AutoML_Batch_Learning_Dataset2.ipynb](https://github.com/Western-OC2-Lab/AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics/blob/main/AutoML_Batch_Learning_Dataset_2.ipynb)
 
-### Machine Learning & Deep Learning Algorithms  
+* The AutoML implementation for **dynamic/online data stream analytics** can be found in [AutoML_Online_Learning_Dataset_1.ipynb](https://github.com/Western-OC2-Lab/AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics/blob/main/AutoML_Online_Learning_Dataset_1.ipynb) and [AutoML_Online_Learning_Dataset2.ipynb](https://github.com/Western-OC2-Lab/AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics/blob/main/AutoML_Online_Learning_Dataset_2.ipynb)
+
+### Static Machine Learning & Deep Learning Algorithms  
 * Random forest (RF)
 * LightGBM  
 * K-nearest neighbor (KNN)  
 * Naive Bayes (NB)  
 * Artificial Neural Networks (ANN)
+
+### Dynamic/Online Learning Algorithms  
+* Hoeffding Tree (HT)
+* Leveraging Bagging (LB)
+* Adaptive Random Forest (ARF) 
+* Streaming Random Patches (SRP)
+
 
 ### Optimization/AutoML Algorithms  
 * Grid search
@@ -69,7 +78,7 @@ The AutoML implementation for static data analytics can be found in [AutoML_Batc
 * [scikit-learn](https://scikit-learn.org/stable/)  
 * [hyperopt](https://github.com/hyperopt/hyperopt)  
 * [LightGBM](https://lightgbm.readthedocs.io/en/latest/)  
-* [River](https://riverml.xyz/dev/) 0.1.0  
+* [River](https://riverml.xyz/dev/) 
 
 ## Contact-Info
 Please feel free to contact me for any questions or cooperation opportunities. I'd be happy to help.
