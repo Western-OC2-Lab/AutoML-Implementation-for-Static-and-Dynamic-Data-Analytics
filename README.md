@@ -1,6 +1,8 @@
 # AutoML-Implementation-for-Static-and-Dynamic-Data-Analytics
 
-This code provides an Automated Machine Learning (AutoML) implementation for static and dynamic data analytics problems. It provides a case study of IoT anomaly detection using many ML algorithms and optimization/AutoML methods (for automating and optimizing ML algorithms). It can also be used as a tutorial to help machine learning researchers to automatically obtain optimized machine learning models with the optimal learning performance on any specific task.
+This code provides an **Automated Machine Learning (AutoML)** implementation for static and dynamic data analytics problems. It provides a case study of IoT anomaly detection using many ML algorithms and optimization/AutoML methods (for automating and optimizing ML algorithms). It can also be used as a **tutorial** to help machine learning researchers to automatically obtain optimized machine learning models with the optimal learning performance on any specific task.
+- **Batch/Static Learning**: Batch learning is the traditional machine learning and data analytics process. Batch learning methods analyze static IoT data in batches and often need access to the entire dataset prior to model training.
+- **Online learning**: Online learning techniques are able to train models using continuously incoming online data streams in dynamic IoT environments and address concept drift issues (data distribution changes).
 
 This code is also the implementation of a review paper published in **Engineering Applications of Artificial Intelligence** (IF: 7.8):  
 L. Yang and A. Shami, “[IoT Data Analytics in Dynamic Environments: From An Automated Machine Learning Perspective](https://arxiv.org/pdf/2209.08018.pdf),” *Engineering Applications of Artificial Intelligence*, vol. 116, pp. 1-33, 2022, doi: https://doi.org/10.1016/j.engappai.2022.105366.  
@@ -64,6 +66,7 @@ IoT Data Analytics in Dynamic Environments: From An Automated Machine Learning P
 ### Optimization/AutoML Algorithms  
 * Grid search
 * Bayesian Optimization with Tree-structured Parzen Estimator (BO-TPE)
+* Particle Swarm Optimization (PSO)
 
 ### Datasets 
 1. CICIDS2017 dataset, a popular network traffic dataset for intrusion detection problems
@@ -77,6 +80,7 @@ IoT Data Analytics in Dynamic Environments: From An Automated Machine Learning P
 * [Keras](https://keras.io/) 
 * [scikit-learn](https://scikit-learn.org/stable/)  
 * [hyperopt](https://github.com/hyperopt/hyperopt)  
+* [optunity](https://github.com/claesenm/optunity)
 * [LightGBM](https://lightgbm.readthedocs.io/en/latest/)  
 * [River](https://riverml.xyz/dev/) 
 
