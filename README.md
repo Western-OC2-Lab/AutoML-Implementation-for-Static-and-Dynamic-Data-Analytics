@@ -11,7 +11,7 @@ This paper and code will help industrial users, data analysts, and researchers t
 
 - A comprehensive **hyperparameter optimization** (automatically tuning the hyperparameters of machine learning algorithms to achieve optimal performance) **tutorial code** can be found in: [Hyperparameter-Optimization-of-Machine-Learning-Algorithms](https://github.com/LiYangHart/Hyperparameter-Optimization-of-Machine-Learning-Algorithms)  
    * 1,000+ GitHub stars
-   * 450+ citations by journal & conference papers
+   * 700+ citations by journal & conference papers
 
 
 ## Paper Link
